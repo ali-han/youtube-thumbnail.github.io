@@ -1,6 +1,6 @@
 # YouTube Thumbnail Downloader
 
-Easily download YouTube video thumbnails in multiple resolutions. This tool allows you to quickly obtain and save the thumbnail images for any YouTube video by simply entering its URL.
+Easily download YouTube video thumbnails in multiple resolutions. This tool allows you to quickly obtain and save the thumbnail images for any YouTube video by simply entering its URL : https://ali-han.github.io/youtube-thumbnail.github.io/
 
 ## Features
 
@@ -23,7 +23,7 @@ Easily download YouTube video thumbnails in multiple resolutions. This tool allo
 
 You can access the application online at: [YouTube Thumbnail Downloader](https://ali-han.github.io/youtube-thumbnail.github.io/)
 
-## SEO Content
+## How to Get YouTube Thumbnail Image?
 
 **How to Use the YouTube Thumbnail Downloader**
 

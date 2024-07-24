@@ -1,4 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 body {
+  font-size: 1rem;
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -13,7 +17,6 @@ body {
   display: block;
 }
 .container {
-  text-align: center;
   background: white;
   padding: 20px;
   border-radius: 8px;
@@ -40,4 +43,57 @@ button {
   display: inline-block;
   margin: 10px;
   text-align: center;
+}
+
+/* Form : */
+input#youtube-url {
+    width: 60%;
+    padding: 15px;
+    font-size: 1.2em;
+    border: 2px solid #ff4500; /* Bright orange border */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input#youtube-url:focus {
+    border-color: #ff6347; /* Lighter orange border on focus */
+    box-shadow: 0 0 10px rgba(255, 99, 71, 0.5);
+    outline: none;
+}
+
+button#download-btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff4500; /* Bright orange background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button#download-btn:hover {
+    background-color: #ff6347; /* Lighter orange background on hover */
+    box-shadow: 0 5px 15px rgba(255, 99, 71, 0.4);
+}
+
+button#download-btn:active {
+    background-color: #ff4500;
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  input#youtube-url,
+  button#download-btn {
+    width: 100%;
+    max-width: 100%;
+  }
 }
